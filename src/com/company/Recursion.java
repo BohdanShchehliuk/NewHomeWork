@@ -55,13 +55,13 @@ public class Recursion {
         int numberOneDimensionMassive = input.nextInt();
         input = new Scanner(System.in);
 
-        System.out.println(operationSum(massive(numberOneDimensionMassive), numberOneDimensionMassive));
+        System.out.println("Max is "+operationSum(massive(numberOneDimensionMassive), numberOneDimensionMassive));
 
         System.out.println("Введіть розміри двохвимірного прямокутного масиву а*b:");
         int numberOfRows = input.nextInt();
         input = new Scanner(System.in);
         int numberOfColums = input.nextInt();
-        System.out.println(operationSum(massive(numberOfRows, numberOfColums), numberOfRows, numberOfColums));
+        System.out.println("Max is "+operationSum(massive(numberOfRows, numberOfColums), numberOfRows, numberOfColums));
     }
 
 
